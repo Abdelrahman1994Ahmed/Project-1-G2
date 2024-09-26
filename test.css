@@ -1,0 +1,58 @@
+/* ayman  */
+.footer {
+    color: #fff;
+    background-color: #263B5C;   
+}
+.icon-footer {
+    border-radius: 0px;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.icon-footer:hover i{
+    transform: rotatey(180deg);
+    transition: all 0.4s ease-in-out;
+
+}
+.p-foot a {
+    text-decoration: none;
+}
+.p-foot:hover a {
+    text-decoration: underline;
+    transition: all 0.8s ease-in-out;
+}
+.join{
+    background-color: #F15B43;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 0px;
+    padding: 10px 15px;
+    font-size: 20px;
+    overflow: hidden;
+    transition: all 0.7s ease-in-out;
+}
+.join:hover {
+    background-color: #263B5C;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.icon-color {
+   color: #65C9BB;
+}
+.foot-color {
+    color: #65C9BB !important;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btn-up {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #65C9BB;
+    color: #fff !important;
+    text-align: center;
+    padding: 5px;
+}
